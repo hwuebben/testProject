@@ -35,3 +35,7 @@ jobs:
       run: |
         pip install pytest
         pytest
+    - name: Type Checking with mypy
+      run: |
+        pip install mypy
+        mypy .
